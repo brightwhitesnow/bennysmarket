@@ -10,7 +10,7 @@ if(isset($_POST['name'])){
 
 
         $nFrom = "Benny Market";    
-        $mFrom = .$email; 
+        $mFrom = 'nguyenvancuong215@gmail.com'; 
         $mPass = 'Menu00d1';       
         $nTo = 'Ben Nguyen'; 
         $mTo = 'bennguyen0808@gmail.com';   

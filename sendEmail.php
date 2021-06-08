@@ -10,12 +10,12 @@ if(isset($_POST['name'])){
 
 
         $nFrom = "Benny Market";    
-        $mFrom = 'nguyenvancuong215@gmail.com'; 
+        $mFrom = $email; 
         $mPass = 'Menu00d1';       
         $nTo = 'Ben Nguyen'; 
         $mTo = 'bennguyen0808@gmail.com';   
         $mail             = new PHPMailer();
-        $body             = '<strong>Name:  </strong>'.$name.'<br>'.'<strong>Email:  </strong>'.$email.'<br>'.'<strong>Phone:  </strong>'.$phone.'<br>'.'<strong>Message: </strong>'.$message;   // Noi dung email
+        $body             = '<strong>Name:  </strong>'.$name.'<br>'.'<strong>Email:  </strong>'.$email.'<br>'.'<strong>Phone:  </strong>'.$phone.'<br>'.'<strong>Message: </strong>'.$comment;   // Noi dung email
         $title = 'Benny Market | '.$name;  
         $mail->IsSMTP();             
         $mail->CharSet  = "utf-8";

@@ -114,7 +114,7 @@ let Ben = [
     },
     {
         img: "https://th.bing.com/th/id/Rd034fbf1a8bb2b20109ed523f26aede8?rik=fw3RkaX3DiyReQ&riu=http%3a%2f%2flavite.ca%2fwp-content%2fuploads%2f2018%2f08%2fJackfruit05.jpg&ehk=7I8tZCBzArhFNf4qVE5Np8tlx%2fa%2bUdaFtPvcLvOwi84%3d&risl=&pid=ImgRaw",
-        name: "Jackfurit",
+        name: "Jackfruit",
         des: "Lorem ipsum"
     },
     {
